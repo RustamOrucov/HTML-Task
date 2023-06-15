@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+   text-decoration: none; 
+}
+
+/* ----------------header-------------  */
+header nav{
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.logo-icon{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.logo-wordmark{
+    width: 7.5em;
+    height: 1.125em;
+}
+.search-bar{
+    width: 500px;
+    height: 30px;
+}
+.menu-content-list{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+/* MAIN */
+main{
+    padding:30px 20px;
+    display: flex;
+    gap: 30px;
+}
+/* ASIDE  */
+aside{
+    width: 200px;
+    padding:30px 40px;
+}
+.aside-contents{
+    font-size: 16px;
+    color:gray;
+}
+.content-list li{
+   list-style-type: none;
+   padding: 5px;
+}
+/* section */
+section{
+    width: 90%;
+}
+.section-header{
+    font-size: 28px;
+}
+.section-nav{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.section-nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+.article-div{
+   display: flex;
+   gap: 40px;
+   padding-top: 30px;
+}
+.vcard{
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+.vcard-table{
+    display: flex;
+}
+.vcard-table th{
+    text-align: left;
+}
+.vcard-image{
+    width: 220px;
+    height: 296px;
+}
+table{
+    text-align: left;
+}
